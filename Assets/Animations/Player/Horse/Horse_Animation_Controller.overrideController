@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Horse_Animation_Controller
+  m_Controller: {fileID: 9100000, guid: 771123c7bd70d024d900860943b57bb1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d427360f5b9b40b46a23b3219a300eba, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4ee190de4a4ab5044a9d726be2d3c74d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ab16c8d49b7fb0140b0434f631cfa59c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 12dd5b2192dd82440ad55e38abb641e5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5b2f149ff4bbff46bcbf12bf2dda0b5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1bd418e5e9644447b8e6f7f0735af5b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 29b7c062ba4da2e4cb2f07cf1cf7eca8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9192cfe5b2dfb304e90418e9a9b582b7, type: 2}

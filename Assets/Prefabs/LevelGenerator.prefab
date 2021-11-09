@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4394517490356472251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394517490356472250}
+  - component: {fileID: 4394517490356472249}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4394517490356472250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394517490356472251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4394517490356472249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394517490356472251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cc145b1b6c96741a809e47aa6ea9c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelPrefab:
+  - {fileID: 8516114374105026081, guid: c9a54da4958d32444b183974ac863c1b, type: 3}
+  - {fileID: 7232709987451939149, guid: 22bb6415465fc064c8e32fb397650fd3, type: 3}
+  _midPrefab: {fileID: 4514367989637004959, guid: 48ab7c2ff0c92ac48a600eed80040598, type: 3}
+  _finalPrefab: {fileID: 3429073831944907059, guid: b53ed22b55967b8459938228c3d2f777, type: 3}
+  _enemyPrefabs:
+  - {fileID: 9211650720330591744, guid: 38279e3bbbafe494aa57c7d78b4ee8ed, type: 3}
+  - {fileID: 3048518540551428095, guid: 5a41a07c30e25464fa221625889092ca, type: 3}
+  - {fileID: 7301992050660791331, guid: 2cb6f3ba81229ed40b9345cb9cd2d1a2, type: 3}
+  - {fileID: 6888267988970250767, guid: 4687becd89c9dcf45971f7606758d849, type: 3}
+  - {fileID: 1462357916932547979, guid: a766767981d10bc44a62f8d8184ccb3e, type: 3}
+  - {fileID: 7015250954832472548, guid: 6f90a305a63d94041ac9c914ced6fd2b, type: 3}
+  _xClamp: 2
+  _bonusBall: {fileID: 7054870099556071361, guid: 0ae88d4be7cf8984b995393b3b672e96, type: 3}
+  _speedBonus: {fileID: 3977835533144058348, guid: 974003a24ef6da743bf582b8a90293d7, type: 3}
+  _jumpBonus: {fileID: 3430194800053786702, guid: a06e2f72cda44dd4689b671d58954057, type: 3}
+  _turnBonus: {fileID: 7794153267150775210, guid: 59d27dad3f9cfd74a80581ffe52668a5, type: 3}
+  _players:
+  - {fileID: 7784961678069797009, guid: 05e7e297d94207b458b05c800a0aa0a0, type: 3}
+  - {fileID: 403380677412558984, guid: 92417ca2864c39342bc84cd571fa0d38, type: 3}
+  - {fileID: 2482073246327002522, guid: b647164e353fe7d49af6cf964bd5600e, type: 3}
+  - {fileID: 647998878101031838, guid: 304cd28171cb6354893d8bb3f9bee1c6, type: 3}
+  - {fileID: 622885948715037637, guid: 7f77ef057ed6988409a476274dcbf636, type: 3}
+  - {fileID: 3427296151218189732, guid: 471822ee4115fd041a6d651779f153ce, type: 3}
+  - {fileID: 3269502599144108959, guid: c8f32062c80fe4e468487f4cdf678c06, type: 3}
+  - {fileID: 188653592492896594, guid: aea69cf6279ca4b4397553cf00fc34f9, type: 3}
+  - {fileID: 4478215929741479315, guid: e7d236ad1667cfa42a3fa1055b499581, type: 3}
+  - {fileID: 3383026550343716172, guid: 4e17942485cf9824b9f1fda9192e346a, type: 3}
+  - {fileID: 570403148924193846, guid: 11ae312f43f0113479b62e46372a8de3, type: 3}
