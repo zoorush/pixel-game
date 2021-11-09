@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public class GameData
@@ -29,6 +31,19 @@ public class GameData
         {
             PlayerPrefs.SetInt("highscore", score);
         }
+    }
+
+    public static void PublishHighscore()
+    {
+         //Create my object
+        var jsonOutput = new
+        {
+            highscore = GameData.Highscore.ToString()
+        };
+
+        //Tranform it to Json object
+        string jsonData = JsonConvert.SerializeObject(jsonOutput);
+        WebGLPluginJS.SendMessageToPage(jsonData);
     }
 
     public static int InsreasePerLevel = 25;

@@ -12,6 +12,7 @@ public class Highscore : MonoBehaviour
     private void OnEnable()
     {
         _text.text = GameData.Highscore.ToString();
+        GameData.PublishHighscore();
     }
 
     private void Update()

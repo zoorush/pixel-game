@@ -207,6 +207,7 @@ public class Player : MonoBehaviour
     public void Lose()
     {
         GameData.SetHighscore(_coins);
+        GameData.PublishHighscore();
         _animator.Play("down");
         GameData.RestartLevel();
         Invoke(nameof(Lost), 2f);
